@@ -33,5 +33,6 @@ if __name__ == '__main__':
         color = input()
         sock_pile.append(color)
 
+    print(str(socks_num) + ' socks in the pile')
     result = matchSock(sock_pile, socks_num)
     print(str(result) + ' pairs are in the pile')
